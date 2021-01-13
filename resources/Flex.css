@@ -73,11 +73,17 @@ h2 {
     width: 90px;
 }
 
-.event-details {}
+.event-details {
+    position: absolute;
+    right: 50px;
+    left: 50px;
+    bottom: 50px;
+}
 
 .event-time-location {
     display: flex;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
+    justify-content: space-between;
 }
 
 .event-wrapper {
